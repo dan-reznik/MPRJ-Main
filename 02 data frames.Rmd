@@ -1,0 +1,195 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Carrega bibliotecas
+
+```{r}
+library(dplyr)
+library(readr)
+library(lubridate)
+```
+
+Cria data frame (tibble) manualmente
+
+```{r}
+df_manual <- tibble(nome=c("Dan","Daniel","Maria"),
+                    sobrenome=c("Reznik","Weller","Conceição"),
+                    nasc=c("22/05/1967","24/02/1967","11/11/2011"),
+                    altura=c(1.73,1.79,1.65))
+```
+
+Preparo de dados
+
+```{r}
+df_manual_clean <- df_manual %>%
+  mutate(nasc_as_date=dmy(nasc)) %>%
+  mutate(dias_de_vida=today()-nasc_as_date) %>%
+  mutate(idade=as.integer(dias_de_vida/365)) %>%
+  rename(nasc_velho=nasc)
+df_manual_clean
+```
+
+Lista conteúdo do diretório "data"
+
+```{r}
+fs::dir_ls("data")
+```
+
+Qual o encoding?
+
+```{r}
+guess_encoding("data/nomes.csv")
+```
+
+
+Leitura de arquivo CSV
+
+```{r}
+df_nomes_csv <- read_delim("data/nomes.csv",delim=";")
+df_nomes_csv
+```
+
+Encoding, tabela de preços de medicamentos da ANVISA
+
+Fonte: http://dados.gov.br/dataset/anvisa-precos-de-medicamentos
+
+```{r}
+guess_encoding("data/TA_PRECOS_MEDICAMENTOS.csv")
+```
+
+
+```{r}
+locale_brazil <- locale(decimal_mark=",",
+                        encoding="ISO-8859-1")
+df_medicamentos <- read_delim("data/TA_PRECOS_MEDICAMENTOS.csv",
+                              delim=";",
+                              quote="", # arquivo contÃƒÂ©m " e ' espÃƒÂºrios
+                              locale=locale_brazil)
+
+df_medicamentos %>% dim
+```
+
+Quantas razões sociais?
+
+```{r}
+df_medicamentos %>%
+  count(NO_RAZAO_SOCIAL,sort=T)
+```
+
+Seleciona colunas de interesse
+
+```{r}
+df_medicamentos_clean <- df_medicamentos %>%
+  filter(!is.na(NU_PF18_INTEIRO)) %>%
+  select(NO_RAZAO_SOCIAL,
+         NO_PRODUTO,
+         DS_APRESENTACAO, # quantidade
+         NU_PF18_INTEIRO)
+```
+
+Calcula preços máximo, mínimo
+
+```{r}
+df_medicamentos_clean$NU_PF18_INTEIRO %>%
+  max(na.rm=T) # min, medio
+```
+
+Quantos produtos
+
+```{r}
+df_medicamentos_clean %>%
+  count(NO_PRODUTO,sort=T)
+```
+
+Distribuição de preços (avançado)
+
+```{r}
+library(ggplot2)
+df_medicamentos_clean %>%
+  ggplot(aes(x=NU_PF18_INTEIRO+1L)) +
+  geom_histogram(fill="#a0a0ff",color="black") +
+  scale_x_log10(
+    breaks = scales::trans_breaks("log10", function(x) 10^x),
+    labels = scales::trans_format("log10", function(x) 10^x)
+  )
+```
+
+Variação de preços dos 10 produtos mais caros (com pelo menos 10 entradas)
+
+```{r}
+df_medicamentos_mais_caros <- df_medicamentos_clean %>%
+  group_by(NO_PRODUTO) %>%
+  summarize(n=n(),median_price=median(NU_PF18_INTEIRO)) %>%
+  filter(n>=10) %>%
+  arrange(desc(median_price)) %>%
+  mutate(rank=row_number()) %>%
+  head(8)
+```
+
+Variação dos preços
+
+```{r}
+library(forcats)
+df_medicamentos_clean %>%
+  semi_join(df_medicamentos_mais_caros,by='NO_PRODUTO') %>%
+  mutate(NO_PRODUTO=NO_PRODUTO%>% fct_reorder(NU_PF18_INTEIRO,.desc=T)) %>%
+  filter(NU_PF18_INTEIRO>0) %>%
+  ggplot(aes(x=NO_PRODUTO,y=NU_PF18_INTEIRO+1)) +
+  geom_boxplot(aes(fill=NO_PRODUTO)) +
+  scale_y_log10(
+    breaks = scales::trans_breaks("log10", function(x) 10^x),
+    labels = scales::trans_format("log10", function(x) 10^x)
+  ) +
+  theme(legend.position="none",
+        axis.text.x = element_text(angle = -45,vjust=0.5,hjust=0))
+```
+
+Novo data frame, só com paracetamol
+
+```{r}
+df_paracetamol <- df_medicamentos_clean %>%
+  filter(NO_PRODUTO=="PARACETAMOL")
+```
+
+Obtém estatísticas
+
+```{r}
+df_paracetamol %>%
+  pull(NU_PF18_INTEIRO) %>%
+  summary()
+```
+
+Apresentações distintas deste produto
+
+```{r}
+df_paracetamol %>%
+  count(DS_APRESENTACAO,sort=T)
+```
+
+Para cada apresentação, reporta o fornecedor mais barato
+
+```{r}
+df_paracetamol_melhores <- df_paracetamol %>%
+  group_by(DS_APRESENTACAO) %>%
+  add_tally() %>% # adiciona contagem por grupo
+  top_n(1,desc(NU_PF18_INTEIRO)) %>%
+  arrange(desc(n))
+```
+
+Verifica se correto
+
+```{r}
+df_paracetamol%>%
+  filter(DS_APRESENTACAO=="200 MG/ML SOL OR CT FR PLAS OPC GOT X 15 ML")%>%
+  select(NO_RAZAO_SOCIAL,NU_PF18_INTEIRO)%>%
+  arrange(NU_PF18_INTEIRO)
+```
+
+Available datasets
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html
+```{r}
+data()
+```
+
