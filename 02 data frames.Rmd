@@ -3,7 +3,7 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-Carrega bibliotecas
+Carrega bibliotecas, teste
 
 ```{r}
 library(dplyr)
