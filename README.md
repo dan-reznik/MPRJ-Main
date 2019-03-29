@@ -56,7 +56,8 @@ Sites úteis
     -   Garrett Grolemund, ["Hands-on Programming with R"](https://rstudio-education.github.io/hopr/)
     -   Claudia Engel, ["Data Wrangling with R"](https://cengel.github.io/R-data-wrangling/)
     -   Jenny Bryan: ["Happy Git and GitHub for the useR"](https://happygitwithr.com/)
-    -   Yihui Xie et al., ["Blogdown: Creating Websites with R Markdown"](https://bookdown.org/yihui/blogdown/) Max Kuhn, “Applied Predictive Modeling”: <http://appliedpredictivemodeling.com/>
+    -   Yihui Xie et al., ["Blogdown: Creating Websites with R Markdown"](https://bookdown.org/yihui/blogdown/)
+    -   Max Kuhn, ["Applied Predictive Modeling"](http://appliedpredictivemodeling.com/)
     -   Max Kuhn, ["Feature Engineering and Selection: A Practical Approach for Predictive Models"](https://bookdown.org/max/FES/)
     -   Mark Sellors, ["Field Guide to the R Ecosystem"](https://fg2re.sellorm.com/)
 -   Vídeos p/ aprender a manipular e modelar dados com os “mestres”
