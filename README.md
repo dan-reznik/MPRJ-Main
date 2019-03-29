@@ -6,7 +6,7 @@ Curso de R p/ o Ministério Público do RJ
 ========================================
 
 -   Dados do Professor
-    -   Nome: Dan S. Reznik (PhD EECS, UC-Berkeley)
+    -   Nome: Dan S. Reznik, [LinkedIn](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
     -   Email: <dan@upperwestsolucoes.com>
     -   Monitor: Matheus Donato, <donats.donato@gmail.com>
 
