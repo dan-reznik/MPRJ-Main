@@ -38,7 +38,26 @@ Pós-Instalação
     -   No cmd prompt executar:
         -   `git config remote.origin.url git@github.com:<user>/<projname>.git`
 
-Sites úteis
+Livros Online (grátis)
+----------------------
+
+-   <span style="background-color: #FFFF00">H. Wickham & G. Grolemund </span>, ["R for Data Science" (r4ds)](https://r4ds.had.co.nz/)
+-   Kieran Healy, ["Data Visualization"](https://socviz.co/)
+-   Garrett Grolemund, ["Hands-on Programming with R"](https://rstudio-education.github.io/hopr/)
+-   Claudia Engel, ["Data Wrangling with R"](https://cengel.github.io/R-data-wrangling/)
+-   Jenny Bryan: ["Happy Git and GitHub for the useR"](https://happygitwithr.com/)
+-   Yihui Xie et al., ["Blogdown: Creating Websites with R Markdown"](https://bookdown.org/yihui/blogdown/)
+-   Max Kuhn, ["Applied Predictive Modeling"](http://appliedpredictivemodeling.com/)
+-   Max Kuhn, ["Feature Engineering and Selection: A Practical Approach for Predictive Models"](https://bookdown.org/max/FES/)
+-   Mark Sellors, ["Field Guide to the R Ecosystem"](https://fg2re.sellorm.com/)
+
+Vídeos dos “Mestres”
+--------------------
+
+-   Hadley Wickham, ["Whole Game"](https://www.youtube.com/watch?v=go5Au01Jrvs)
+-   David Robinson, ["Tidytuesdays"](https://www.youtube.com/user/safe4democracy/videos)
+
+Sites Úteis
 -----------
 
 -   Tidyverse
@@ -55,19 +74,6 @@ Sites úteis
     -   [Rstudio & Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
     -   Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     -   Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
--   Livros Online (grátis)
-    -   <span style="background-color: #FFFF00">H. Wickham & G. Grolemund </span>, ["R for Data Science" (r4ds)](https://r4ds.had.co.nz/)
-    -   Kieran Healy, ["Data Visualization"](https://socviz.co/)
-    -   Garrett Grolemund, ["Hands-on Programming with R"](https://rstudio-education.github.io/hopr/)
-    -   Claudia Engel, ["Data Wrangling with R"](https://cengel.github.io/R-data-wrangling/)
-    -   Jenny Bryan: ["Happy Git and GitHub for the useR"](https://happygitwithr.com/)
-    -   Yihui Xie et al., ["Blogdown: Creating Websites with R Markdown"](https://bookdown.org/yihui/blogdown/)
-    -   Max Kuhn, ["Applied Predictive Modeling"](http://appliedpredictivemodeling.com/)
-    -   Max Kuhn, ["Feature Engineering and Selection: A Practical Approach for Predictive Models"](https://bookdown.org/max/FES/)
-    -   Mark Sellors, ["Field Guide to the R Ecosystem"](https://fg2re.sellorm.com/)
--   Vídeos p/ aprender a manipular e modelar dados com os “mestres”
-    -   Hadley Wickham, ["Whole Game"](https://www.youtube.com/watch?v=go5Au01Jrvs)
-    -   David Robinson, ["Tidytuesdays"](https://www.youtube.com/user/safe4democracy/videos)
 
 Plano de Aulas
 --------------
