@@ -20,6 +20,12 @@ knitr::include_graphics("pics/mprj_and_puc.png")
 * Professor: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), dan@upperwestsolucoes.com
 * Monitor: Matheus Donato, donats.donato@gmail.com
 
+## Plano de Aulas (Sujeito à Mudanças)
+
+```{r,eval=T,echo=F,out.width='50%'}
+knitr::include_graphics("pics/plano de aula I.png")
+```
+
 ## Notebook recomendado
 
 * CPU i3 (6a geração ou melhor), RAM >=  4Gb, Windows10  
@@ -28,10 +34,10 @@ knitr::include_graphics("pics/mprj_and_puc.png")
 
 ## Downloads p/ Windows10
 
-* R 3.5.3: [aqui](https://cran.r-project.org/bin/windows/base/)
-* RStudio 1.1.463 [aqui](https://download1.rstudio.org/RStudio-1.1.463.exe)
-* Git [aqui](https://git-scm.com/download/win)
-* Notepad++ [aqui](https://notepad-plus-plus.org/download/v7.6.4.html)
+* [R 3.5.3](https://cran.r-project.org/bin/windows/base/)
+* [RStudio 1.1.463](https://download1.rstudio.org/RStudio-1.1.463.exe)
+* [Git](https://git-scm.com/download/win)
+* [Notepad++](https://notepad-plus-plus.org/download/v7.6.4.html)
 
 ## Pós-Instalação
 
@@ -80,9 +86,3 @@ knitr::include_graphics("pics/mprj_and_puc.png")
     + [Rstudio & Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
     + Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     + Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)    
-
-## Plano de Aulas
-
-```{r,eval=T,echo=F,out.width='50%'}
-knitr::include_graphics("pics/plano de aula I.png")
-```

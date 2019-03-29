@@ -8,6 +8,11 @@
 -   Professor: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
 -   Monitor: Matheus Donato, <donats.donato@gmail.com>
 
+Plano de Aulas (Sujeito à Mudanças)
+-----------------------------------
+
+<img src="pics/plano de aula I.png" width="50%" />
+
 Notebook recomendado
 --------------------
 
@@ -18,10 +23,10 @@ Notebook recomendado
 Downloads p/ Windows10
 ----------------------
 
--   R 3.5.3: [aqui](https://cran.r-project.org/bin/windows/base/)
--   RStudio 1.1.463 [aqui](https://download1.rstudio.org/RStudio-1.1.463.exe)
--   Git [aqui](https://git-scm.com/download/win)
--   Notepad++ [aqui](https://notepad-plus-plus.org/download/v7.6.4.html)
+-   [R 3.5.3](https://cran.r-project.org/bin/windows/base/)
+-   [RStudio 1.1.463](https://download1.rstudio.org/RStudio-1.1.463.exe)
+-   [Git](https://git-scm.com/download/win)
+-   [Notepad++](https://notepad-plus-plus.org/download/v7.6.4.html)
 
 Pós-Instalação
 --------------
@@ -74,8 +79,3 @@ Sites Úteis
     -   [Rstudio & Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
     -   Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     -   Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
-
-Plano de Aulas
---------------
-
-<img src="pics/plano de aula I.png" width="50%" />
