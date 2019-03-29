@@ -6,7 +6,7 @@ Curso de R p/ o Ministério Público do RJ
 ========================================
 
 -   Dados do Professor
-    -   Nome: Dan S. Reznik, [LinkedIn](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
+    -   Nome: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
     -   Email: <dan@upperwestsolucoes.com>
     -   Monitor: Matheus Donato, <donats.donato@gmail.com>
 
@@ -31,6 +31,7 @@ Instalação
             -   `git config --global user.email "<seu_mail>@<...>.com"`
             -   `git config --global user.name "<seu nome>"`
         -   Criar chaves de segurança SSH
+            -   `git config remote.origin.url git@github.com:<user>/<projname>.git`
 
 Sites úteis
 -----------

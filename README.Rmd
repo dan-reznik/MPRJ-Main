@@ -43,6 +43,7 @@ knitr::include_graphics("pics/mprj.jpg")
             + `git config --global user.email "<seu_mail>@<...>.com"`
             + `git config --global user.name "<seu nome>"`
         + Criar chaves de segurança SSH
+            + `git config remote.origin.url git@github.com:<user>/<projname>.git`
 
 ## Sites úteis
 
