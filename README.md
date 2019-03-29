@@ -1,15 +1,27 @@
-Aula de R/Tidyverse
+Introdução ao R/Tidyverse
 ================
-March 29, 2019
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <img src="pics/mprj_and_puc.png" width="33%" />
 
-<img src="pics/r language.png" align="left" width=100 style="padding-right:20px;background-color:white;"/> Introdução ao R/tidyverse
-====================================================================================================================================
+-   Organizador: Daniel Lima Ribeiro (MP-RJ), <daniel@mprj.mp.br>
+-   Professor: [Dan S. Reznik (PUC-CCE)](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
+-   Monitores
+    -   Matheus Donato (ENCE/IBGE), <donats.donato@gmail.com>
+    -   Thomás Jagoda (UFRJ)
 
--   Professor: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
--   Monitor: Matheus Donato, <donats.donato@gmail.com>
+Projeto 1: Execução Orçamentária
+--------------------------------
+
+-   Estudo exploratório:
+    -   Quais pastas estão sendo mais pagas
+    -   Quais modalidades de licitação
+    -   Com qual frequência de dispensa
+    -   Por área de governo etc.
+-   Pasta de Saúde:
+    -   Esta pasta recebe menos recursos do que as demais?
+    -   Gastos em outras áreas são mais ou menos prioritários?
+-   Fonte: [Portal de Transparência Fiscal](http://www.transparencia.rj.gov.br/transparencia/faces/OrcamentoTematico/despesa)
 
 Plano de Aulas (sujeito à alterações)
 -------------------------------------
@@ -82,16 +94,3 @@ Sites Úteis
     -   [Rstudio & Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
     -   Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     -   Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
-
-Projeto 1: Execução Orçamentária
---------------------------------
-
--   Download: [Portal de Transparência Fiscal](http://www.fazenda.rj.gov.br/tfe-download/despesa.zip)
--   Estudo exploratório:
-    -   Quais pastas estão sendo mais pagas
-    -   Quais modalidades de licitação
-    -   Com qual frequência de dispensa
-        -   Por áreas de governo etc.
--   Pasta de Saúde:
-    -   Esta pasta recebe menos recursos do que as demais?
-    -   Gastos em outras áreas são mais ou menos prioritários?
