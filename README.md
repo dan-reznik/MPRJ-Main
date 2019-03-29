@@ -64,7 +64,8 @@ Sites Úteis
 
 -   Tidyverse
     -   [Pacotes](https://www.tidyverse.org/packages/)
-    -   [Cartões de “Cola”](https://www.rstudio.com/resources/cheatsheets/)
+    -   [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+    -   [Regular Expressions](https://stringr.tidyverse.org/articles/regular-expressions.html)
 -   Pacotes R
     -   [Leaderboard](https://www.rdocumentation.org/trends)
     -   [Task Views](https://cran.r-project.org/web/views/)
