@@ -7,8 +7,8 @@ Introdução ao R/Tidyverse
 -   Organizador: Daniel Lima Ribeiro (MP-RJ), <daniel@mprj.mp.br>
 -   Professor: [Dan S. Reznik (PUC-CCE)](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
 -   Monitores
-    -   Matheus Donato (ENCE/IBGE), <donats.donato@gmail.com>
-    -   Thomás Jagoda (UFRJ)
+    -   [Matheus Donato (ENCE/IBGE)](https://www.linkedin.com/in/matheus-donato-75526388/), <donats.donato@gmail.com>
+    -   Thomás Jagoda (UFRJ), <thomasjagoda@poli.ufrj.br>
 
 Notebook recomendado
 --------------------
