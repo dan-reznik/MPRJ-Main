@@ -5,16 +5,15 @@
 <img src="pics/r language.png" align="left" width=100 style="padding-right:20px;background-color:white;"/> Introdução ao R/tidyverse
 ====================================================================================================================================
 
--   Dados do Professor
-    -   Nome: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
-    -   Monitor: Matheus Donato, <donats.donato@gmail.com>
+-   Professor: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
+-   Monitor: Matheus Donato, <donats.donato@gmail.com>
 
 Notebook recomendado
 --------------------
 
 -   CPU i3 (6a geração ou melhor), RAM &gt;= 4Gb, Windows10
 -   Tela: 14” (ou maior) e "full HD" (1920x1080). Evitar telas HD “puro” (720p)
--   Exemplo: \[Samsung Essentials E30\](<https://www.americanas.com.br/produto/133794107>()
+-   Exemplo: [Samsung Essentials E30](https://www.americanas.com.br/produto/133794107)
 
 Downloads p/ Windows10
 ----------------------
