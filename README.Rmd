@@ -11,39 +11,43 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r,eval=T,echo=F,out.width='50%'}
-knitr::include_graphics("pics/mprj.jpg")
+```{r,eval=T,echo=F,out.width='33%'}
+knitr::include_graphics(c("pics/mprj_and_puc.png"))
 ```
 
-# Curso de R p/ o Ministério Público do RJ
+# Introdução ao Ecossistema R/tidyverse
 
 * Dados do Professor
     + Nome: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
     + Email: dan@upperwestsolucoes.com
     + Monitor: Matheus Donato, donats.donato@gmail.com
 
-## Instalação
+## Notebook recomendado
 
-* Notebook recomendado
-    + CPU i3 (6a geração ou melhor), RAM >=  4Gb, Windows10  
-    + Tela: 14” (ou maior) e "full HD" (1920x1080). Evitar telas HD “puro” (720p)
-    + Exemplo: Samsung Essentials E30 Intel I3 4GB 1TB Full HD 15.6'' W10 https://www.americanas.com.br/produto/133794107
+* CPU i3 (6a geração ou melhor), RAM >=  4Gb, Windows10  
+* Tela: 14” (ou maior) e "full HD" (1920x1080). Evitar telas HD “puro” (720p)
+* Exemplo: [Samsung Essentials E30](https://www.americanas.com.br/produto/133794107()
 
-* Downloads p/ Windows10
-    + R 3.5.3: [aqui](https://cran.r-project.org/bin/windows/base/)
-    + RStudio 1.1.463 [aqui](https://download1.rstudio.org/RStudio-1.1.463.exe)
-    + Git [aqui](https://git-scm.com/download/win)
-    + Notepad++ [aqui](https://notepad-plus-plus.org/download/v7.6.4.html)
-    + Instalar pacote “tidyverse”: abrir o command prompt do windows (tela preta, com "cmd") com:
-        + `R -e "install.packages('tidyverse',repo='https://cloud.r-project.org')"`
-    + GitHub
-        + Criar conta no GitHub
-        + Fork/clone: https://github.com/dan-reznik/R-Ministerio-Publico-RJ
-        + Executar na tela de comando do windows:
-            + `git config --global user.email "<seu_mail>@<...>.com"`
-            + `git config --global user.name "<seu nome>"`
-        + Criar chaves de segurança SSH
-            + `git config remote.origin.url git@github.com:<user>/<projname>.git`
+## Downloads p/ Windows10
+
+* R 3.5.3: [aqui](https://cran.r-project.org/bin/windows/base/)
+* RStudio 1.1.463 [aqui](https://download1.rstudio.org/RStudio-1.1.463.exe)
+* Git [aqui](https://git-scm.com/download/win)
+* Notepad++ [aqui](https://notepad-plus-plus.org/download/v7.6.4.html)
+
+## Pós-Instalação
+
+* Instalar pacote “tidyverse” executando no cmd prompt:
+    + `R -e "install.packages('tidyverse',repo='https://cloud.r-project.org')"`
+* Versionamento
+    + Criar conta no GitHub
+    + Fork: https://github.com/dan-reznik/R-Ministerio-Publico-RJ
+    + Executar na tela de comando do windows:
+        + `git config --global user.email "<seu_mail>@<...>.com"`
+        + `git config --global user.name "<seu nome>"`
+    + No RStudio, criar chaves de segurança SSH
+    + No cmd prompt executar:
+        + `git config remote.origin.url git@github.com:<user>/<projname>.git`
 
 ## Sites úteis
 
