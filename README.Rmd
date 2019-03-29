@@ -18,7 +18,7 @@ knitr::include_graphics("pics/mprj.jpg")
 # Curso de R p/ o Ministério Público do RJ
 
 * Dados do Professor
-    + Nome: Dan S. Reznik  [LinkedIn](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
+    + Nome: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
     + Email: dan@upperwestsolucoes.com
     + Monitor: Matheus Donato, donats.donato@gmail.com
 
