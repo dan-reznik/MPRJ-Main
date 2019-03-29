@@ -21,24 +21,6 @@ knitr::include_graphics("pics/mprj_and_puc.png")
 * Monitores
     + Matheus Donato (ENCE/IBGE), donats.donato@gmail.com
     + Thomás Jagoda (UFRJ)
-    
-## Projeto 1: Execução Orçamentária
-
-* Estudo exploratório:
-    + Quais pastas estão sendo mais pagas
-    + Quais modalidades de licitação
-    + Com qual frequência de dispensa
-    + Por área de governo etc.
-* Pasta de Saúde:
-    + Esta pasta recebe menos recursos do que as demais?
-    + Gastos em outras áreas são mais ou menos prioritários?
-* Fonte: [Portal de Transparência Fiscal](http://www.transparencia.rj.gov.br/transparencia/faces/OrcamentoTematico/despesa)
-
-## Plano de Aulas (sujeito à alterações)
-
-```{r,eval=T,echo=F,out.width='50%'}
-knitr::include_graphics("pics/plano de aula I.png")
-```
 
 ## Notebook recomendado
 
@@ -99,4 +81,23 @@ knitr::include_graphics("pics/plano de aula I.png")
 * Version Control
     + [Rstudio & Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
     + Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
-    + Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)    
+    + Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
+    
+## Plano de Aulas (sujeito à alterações)
+
+```{r,eval=T,echo=F,out.width='50%'}
+knitr::include_graphics("pics/plano de aula I.png")
+```
+    
+## Projeto 1: Execução Orçamentária
+
+* Estudo exploratório:
+    + Quais pastas estão sendo mais pagas
+    + Quais modalidades de licitação
+    + Com qual frequência de dispensa
+    + Por área de governo etc.
+* Pasta de Saúde:
+    + Esta pasta recebe menos recursos do que as demais?
+    + Gastos em outras áreas são mais ou menos prioritários?
+* Fonte: [Portal de Transparência Fiscal](http://www.transparencia.rj.gov.br/transparencia/faces/OrcamentoTematico/despesa)
+
