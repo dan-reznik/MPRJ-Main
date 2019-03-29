@@ -8,8 +8,8 @@
 -   Professor: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
 -   Monitor: Matheus Donato, <donats.donato@gmail.com>
 
-Plano de Aulas (Sujeito à Mudanças)
------------------------------------
+Plano de Aulas (sujeito à alterações)
+-------------------------------------
 
 <img src="pics/plano de aula I.png" width="50%" />
 
