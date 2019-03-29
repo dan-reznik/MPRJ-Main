@@ -2,12 +2,11 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <img src="pics/mprj_and_puc.png" width="33%" />
 
-Introdução ao Ecossistema R/tidyverse
-=====================================
+<img src="pics/r language.png" align="left" width=100 style="padding-right:20px;background-color:white;"/> Introdução ao R/tidyverse
+====================================================================================================================================
 
 -   Dados do Professor
-    -   Nome: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/)
-    -   Email: <dan@upperwestsolucoes.com>
+    -   Nome: [Dan S. Reznik](https://www.linkedin.com/in/dan-s-reznik-phd-bb49133/), <dan@upperwestsolucoes.com>
     -   Monitor: Matheus Donato, <donats.donato@gmail.com>
 
 Notebook recomendado
@@ -58,7 +57,7 @@ Sites úteis
     -   Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     -   Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
 -   Livros Online (grátis)
-    -   H. Wickham & G. Grolemund, ["R for Data Science" (r4ds)](https://r4ds.had.co.nz/)
+    -   <span style="background-color: #FFFF00">H. Wickham & G. Grolemund </span>, ["R for Data Science" (r4ds)](https://r4ds.had.co.nz/)
     -   Kieran Healy, ["Data Visualization"](https://socviz.co/)
     -   Garrett Grolemund, ["Hands-on Programming with R"](https://rstudio-education.github.io/hopr/)
     -   Claudia Engel, ["Data Wrangling with R"](https://cengel.github.io/R-data-wrangling/)
