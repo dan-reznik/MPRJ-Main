@@ -61,4 +61,8 @@ knitr::include_graphics("pics/mprj.jpg")
     + Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     + Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
 
-## Plano de Aula
+## Plano de Aulas
+
+```{r,eval=T,echo=F,out.width='50%'}
+knitr::include_graphics("pics/plano de aula I.png")
+```

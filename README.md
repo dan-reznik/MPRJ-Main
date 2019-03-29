@@ -50,5 +50,7 @@ Sites úteis
     -   Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     -   Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
 
-Plano de Aula
--------------
+Plano de Aulas
+--------------
+
+<img src="pics/plano de aula I.png" width="50%" />
