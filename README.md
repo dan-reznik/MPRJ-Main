@@ -83,16 +83,7 @@ Plano de Aulas (sujeito à alterações)
 
 <img src="pics/plano de aula I.png" width="50%" />
 
-Projeto 1: Execução Orçamentária
---------------------------------
+Projetos
+--------
 
--   Estudo exploratório:
-    -   Quais pastas estão sendo mais pagas
-    -   Quais modalidades de licitação
-    -   Com qual frequência de dispensa
-    -   Por área de governo etc.
--   Pasta de Saúde:
-    -   Esta pasta recebe menos recursos do que as demais?
-    -   Gastos em outras áreas são mais ou menos prioritários?
--   Fonte: [Portal de Transparência Fiscal](http://www.transparencia.rj.gov.br/transparencia/faces/OrcamentoTematico/despesa)
--   GitHub: <https://github.com/dan-reznik/MP-Execucao-Orcamentaria>
+-   [Execução Orçamentária](https://github.com/dan-reznik/MP-Execucao-Orcamentaria)
