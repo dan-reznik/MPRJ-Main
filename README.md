@@ -37,8 +37,9 @@ Pós-Instalação
         -   `git config --global user.email "<seu_mail>@<...>.com"`
         -   `git config --global user.name "<seu nome>"`
     -   No RStudio, criar chaves de segurança SSH
-    -   No cmd prompt executar:
-        -   `git config remote.origin.url git@github.com:<user>/<projname>.git`
+    -   Cmd prompt: na pasta do projeto executar:
+        -   `git remote -v`
+        -   `git remote set-url origin git@github.com:user/repo_name.git`
 
 Livros Online (grátis)
 ----------------------
