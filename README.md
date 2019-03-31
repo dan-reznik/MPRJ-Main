@@ -66,6 +66,7 @@ Sites Úteis
     -   [Pacotes](https://www.tidyverse.org/packages/)
     -   [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
     -   [Regular Expressions](https://stringr.tidyverse.org/articles/regular-expressions.html)
+    -   [Galeria do ggplot2](https://www.r-graph-gallery.com/portfolio/ggplot2-package/)
 -   Pacotes R
     -   [Leaderboard](https://www.rdocumentation.org/trends)
     -   [Task Views](https://cran.r-project.org/web/views/)
