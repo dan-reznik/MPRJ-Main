@@ -76,6 +76,7 @@ Sites Úteis
     -   [R-Bloggers](https://www.r-bloggers.com/)
     -   Hadley Wickham, ["Como se tornar um Cientista de Dados"](https://gist.github.com/hadley/820f09ded347c62c2864)
 -   Version Control
+    -   [Git Tutorial](https://medium.com/@abhishekj/an-intro-to-git-and-github-1a0e2c7e3a2f)
     -   [Rstudio & Git](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
     -   Karl Broman, ["Github tutorial"](http://kbroman.org/github_tutorial/)
     -   Michael Freedman, ["Git Collaboration"](http://slides.com/michaelfreeman/git-collaboration)
