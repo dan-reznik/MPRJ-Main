@@ -30,16 +30,21 @@ Pós-Instalação
 
 -   Instalar pacote “tidyverse” executando no cmd prompt:
     -   `R -e "install.packages('tidyverse',repo='https://cloud.r-project.org')"`
--   Versionamento
+
+Git e GitHub
+------------
+
+<img src="pics/git.png" width="50%" />
+
+-   GitHub
     -   Criar conta no GitHub
     -   Fork: <https://github.com/dan-reznik/R-Ministerio-Publico-RJ>
-    -   Executar na tela de comando do windows:
-        -   `git config --global user.email "<seu_mail>@<...>.com"`
-        -   `git config --global user.name "<seu nome>"`
-    -   No RStudio, criar chaves de segurança SSH
-    -   Cmd prompt: na pasta do projeto executar:
-        -   `git remote -v`
-        -   `git remote set-url origin git@github.com:user/repo_name.git`
+-   RStudio, criar chaves SSH
+    -   `git remote -v`
+    -   `git remote set-url origin git@github.com:user/repo_name.git`
+-   Git, identificar usuário no cmd prompt:
+    -   `git config --global user.email "<seu_mail>@<...>.com"`
+    -   `git config --global user.name "<seu nome>"`
 
 Livros Online (grátis)
 ----------------------
