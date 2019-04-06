@@ -14,6 +14,7 @@ Introdução ao R/Tidyverse
         (ENCE/IBGE)](https://www.linkedin.com/in/matheus-donato-75526388/),
         <donats.donato@gmail.com>
       - Thomás Jagoda (UFRJ), <thomasjagoda@poli.ufrj.br>
+  - Homepage: <https://dan-reznik.github.io/MPRJ-Main/>
 
 ## Notebook recomendado
 
