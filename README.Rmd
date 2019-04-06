@@ -101,4 +101,4 @@ knitr::include_graphics("pics/plano de aula I.png")
     
 ## Projetos
 
-* [Execução Orçamentária](https://github.com/dan-reznik/MP-Execucao-Orcamentaria)
+* [Execução Orçamentária](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
