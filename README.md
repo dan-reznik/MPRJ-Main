@@ -49,6 +49,52 @@
       - `git config --global user.email "<seu_mail>@<...>.com"`
       - `git config --global user.name "<seu nome>"`
 
+## Plano de Aulas (sujeito a alterações)
+
+  - Aula 1
+      - [Slides
+        introdutórios](https://github.com/dan-reznik/MPRJ-Main/blob/master/aulas%20ppt/R%20Ministerio%20Publico%20Aula%201.pptx?raw=true)
+      - Colocamos alunos no GitHub, fork do repositório, clonagem
+      - Navegação no RStudio
+      - Comandos básicos de R no console
+  - Aula 2
+      - “refork” do projeto c/ delete, clonagem
+      - Comandos basicos do R num script .R
+      - Introdução a notebooks
+      - Criação de dataframes manualmente
+      - Leitura e exportação de dataframes de/para arquivos .csv
+  - Aula 3
+      - Git “pull” do repositório
+      - Introdução ao “pipe” `%>%`
+      - Os 5 verbos do `dplyr`: select, filter, group\_by, summarize,
+        arrange
+      - Exercícios
+  - Aula 4
+      - Visualização de dados com `ggplot2`
+      - Exercícios
+  - Aula 5
+      - Projeto:
+          - Escolher [dataset aberto](http://dados.gov.br/)
+          - Propor questão de negócios + visualizações
+          - Criar página do projeto no github com README.Rmd
+          - Ingestão e preparo dos dados
+  - Aula 6
+      - Projeto
+          - Finalização
+          - Entrega / Apresentação
+
+## Exercícios
+
+  - Thomás Jagoda, [Visualização com
+    ggplot2](https://github.com/JagodaT/MPRJ--Exercicios-ggplot2)
+  - Ben Stenhaug, [The 5 verbs of
+    dplyr](https://teachingr.com/content/the-5-verbs-of-dplyr/the-5-verbs-of-dplyr-exercise.html)
+
+## Projetos
+
+  - [Execução
+    Orçamentária](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
+
 ## Livros Online (grátis)
 
   - <span style="background-color: #FFFF00">H. Wickham & G. Grolemund
@@ -109,19 +155,3 @@
         tutorial”](http://kbroman.org/github_tutorial/)
       - Michael Freedman, [“Git
         Collaboration”](http://slides.com/michaelfreeman/git-collaboration)
-
-## Plano de Aulas (sujeito à alterações)
-
-<img src="pics/plano de aula I.png" width="50%" />
-
-## Projetos
-
-  - [Execução
-    Orçamentária](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
-
-## Exercícios:
-
-  - Thomás Jagoda, [Visualização com
-    ggplot2](https://github.com/JagodaT/MPRJ--Exercicios-ggplot2)
-  - Ben Steuhag, [The 5 verbs of
-    dplyr](https://teachingr.com/content/the-5-verbs-of-dplyr/the-5-verbs-of-dplyr-exercise.html)
