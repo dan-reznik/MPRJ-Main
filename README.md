@@ -1,9 +1,7 @@
-Introdução ao R/Tidyverse
-================
+
+# Introdução ao R/Tidyverse <img width="300" src="pics/puc_mprj_inova.png" align="right" style="padding-left:10px;background-color:white"  />
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-<img src="pics/mprj_and_puc.png" width="33%" />
 
   - Organizador: Daniel Lima Ribeiro (MP-RJ), <daniel@mprj.mp.br>
   - Professor: [Dan S. Reznik
@@ -77,6 +75,8 @@ Introdução ao R/Tidyverse
     Game”](https://www.youtube.com/watch?v=go5Au01Jrvs)
   - David Robinson,
     [“Tidytuesdays”](https://www.youtube.com/user/safe4democracy/videos)
+  - Ben Stenhaug, [“Tidyverse Tutorial
+    Playlist”](https://www.youtube.com/watch?v=lTTJPRwnONE&list=PLLxj8fULvXwGOf8uHlL4Tr62oXSB5k_in)
 
 ## Sites Úteis
 
@@ -85,6 +85,11 @@ Introdução ao R/Tidyverse
       - [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
       - [Regular
         Expressions](https://stringr.tidyverse.org/articles/regular-expressions.html)
+      - [TeachR](https://teachingr.com/)
+  - Visualização
+      - [Data Visualization in
+        R](https://djnavarro.github.io/satrdayjoburg/),
+        [slides](https://djnavarro.github.io/satrdayjoburg/slides)
       - [Galeria do
         ggplot2](https://www.r-graph-gallery.com/portfolio/ggplot2-package/)
   - Pacotes R
@@ -113,3 +118,10 @@ Introdução ao R/Tidyverse
 
   - [Execução
     Orçamentária](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
+
+## Exercícios:
+
+  - Thomás Jagoda, [Visualização com
+    ggplot2](https://github.com/JagodaT/MPRJ--Exercicios-ggplot2)
+  - Ben Steuhag, [The 5 verbs of
+    dplyr](https://teachingr.com/content/the-5-verbs-of-dplyr/the-5-verbs-of-dplyr-exercise.html)
