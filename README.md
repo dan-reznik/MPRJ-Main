@@ -1,5 +1,5 @@
 
-# Introdução ao R/Tidyverse <img width="300" src="pics/puc_mprj_inova.png" align="right" style="padding-left:10px;background-color:white"  />
+# Introdução ao R/Tidyverse <img width="300" src="pics/puc_mprj_inova.png" align="right" style="padding-left:10px;background-color:white"/>
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
