@@ -64,7 +64,12 @@
       - Criação de dataframes manualmente
       - Leitura e exportação de dataframes de/para arquivos .csv
   - Aula 3
-      - Git “pull” do repositório
+      - Atualizar o fork do projeto
+          - `git remote add upstream
+            https://github.com/dan-reznik/MP-Execucao-Orcamentaria`
+          - `git fetch upstream`
+          - `git checkout master`
+          - `git merge upstream/master`
       - Introdução ao “pipe” `%>%`
       - Os 5 verbos do `dplyr`: select, filter, group\_by, summarize,
         arrange
