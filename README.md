@@ -70,6 +70,7 @@
           - `git fetch upstream`
           - `git checkout master`
           - `git merge upstream/master`
+          - “push” p/ seu fork com o `git` do Rstudio
       - Introdução ao “pipe” `%>%`
       - Os 5 verbos do `dplyr`: select, filter, group\_by, summarize,
         arrange
