@@ -67,7 +67,7 @@ knitr::include_graphics("pics/git.png")
     + Comandos basicos do R num script .R
     + Introdução a notebooks
     + Criação de dataframes manualmente
-    + Leitura e exportação de dataframes de/para arquivos .csv
+    + Leitura e exportação de dataframes com arquivos .csv
 * Aula 3
     + Atualizar o fork do projeto
         + `git remote add upstream https://github.com/dan-reznik/R-Ministerio-Publico-RJ && git fetch upstream && git checkout master && git merge upstream/master`
