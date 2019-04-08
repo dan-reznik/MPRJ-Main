@@ -64,6 +64,8 @@
       - Criação de dataframes manualmente
       - Leitura e exportação de dataframes com arquivos .csv
   - Aula 3
+      - Rename remote: `git remote set-url origin
+        https://github.com/dan-reznik/MPRJ-Main`
       - Atualizar o fork do projeto
           - `git remote add upstream
             https://github.com/dan-reznik/R-Ministerio-Publico-RJ && git
