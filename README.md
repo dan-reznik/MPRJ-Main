@@ -1,5 +1,5 @@
 
-# Introdução ao R/Tidyverse <img width="300" src="pics/puc_mprj_inova.png" align="right" style="padding-left:10px;background-color:white"/>
+## Introdução à Ciência de Dados com R <img width="200" src="pics/puc_mprj_inova.png" align="right" style="padding-left:10px;background-color:white"/>
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -14,7 +14,7 @@
       - Thomás Jagoda (UFRJ), <thomasjagoda@poli.ufrj.br>
   - Homepage: <https://dan-reznik.github.io/MPRJ-Main/>
 
-## Notebook recomendado
+### Notebook recomendado
 
   - CPU i3 (6a geração ou melhor), RAM \>= 4Gb, Windows10  
   - Tela: 14” (ou maior) e “full HD” (1920x1080). Evitar telas HD “puro”
@@ -22,20 +22,20 @@
   - Exemplo: [Samsung Essentials
     E30](https://www.americanas.com.br/produto/133794107)
 
-## Downloads p/ Windows10
+### Downloads p/ Windows10
 
   - [R 3.5.3](https://cran.r-project.org/bin/windows/base/)
   - [RStudio 1.1.463](https://download1.rstudio.org/RStudio-1.1.463.exe)
   - [Git](https://git-scm.com/download/win)
   - [Notepad++](https://notepad-plus-plus.org/download/v7.6.4.html)
 
-## Pós-Instalação
+### Pós-Instalação
 
   - Instalar pacote “tidyverse” executando no cmd prompt:
       - `R -e
         "install.packages('tidyverse',repo='https://cloud.r-project.org')"`
 
-## Git e GitHub
+### Git e GitHub
 
 <img src="pics/git.png" width="50%" />
 
@@ -49,7 +49,7 @@
       - `git config --global user.email "<seu_mail>@<...>.com"`
       - `git config --global user.name "<seu nome>"`
 
-## Plano de Aulas (sujeito a alterações)
+### Plano de Aulas (sujeito a alterações)
 
   - Aula 1
       - [Slides
@@ -66,15 +66,15 @@
   - Aula 3
       - Atualizar o fork do projeto
           - `git remote add upstream
-            https://github.com/dan-reznik/MP-Execucao-Orcamentaria`
-          - `git fetch upstream`
-          - `git checkout master`
-          - `git merge upstream/master`
-              - obs: se houver erro de merge, executar: `git add .`
+            https://github.com/dan-reznik/R-Ministerio-Publico-RJ && git
+            fetch upstream && git checkout master && git merge
+            upstream/master`
+          - Nota: em caso de erro de merge, `git add .` e repetir
           - “push” p/ seu fork pelo Rstudio
       - Introdução ao “pipe” `%>%`
       - Os 5 verbos do `dplyr`: select, filter, group\_by, summarize,
         arrange
+      - [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
       - Exercícios
   - Aula 4
       - Visualização de dados com `ggplot2`
@@ -90,19 +90,19 @@
           - Finalização
           - Entrega / Apresentação
 
-## Exercícios
+### Exercícios
 
   - Thomás Jagoda, [Visualização com
     ggplot2](https://github.com/JagodaT/MPRJ--Exercicios-ggplot2)
   - Ben Stenhaug, [The 5 verbs of
     dplyr](https://teachingr.com/content/the-5-verbs-of-dplyr/the-5-verbs-of-dplyr-exercise.html)
 
-## Projetos
+### Projetos
 
   - [Execução
     Orçamentária](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
 
-## Livros Online (grátis)
+### Livros Online (grátis)
 
   - <span style="background-color: #FFFF00">H. Wickham & G. Grolemund
     </span>, [“R for Data Science” (r4ds)](https://r4ds.had.co.nz/)
@@ -122,7 +122,7 @@
   - Mark Sellors, [“Field Guide to the R
     Ecosystem”](https://fg2re.sellorm.com/)
 
-## Vídeos dos “Mestres”
+### Vídeos dos “Mestres”
 
   - Hadley Wickham, [“Whole
     Game”](https://www.youtube.com/watch?v=go5Au01Jrvs)
@@ -131,7 +131,7 @@
   - Ben Stenhaug, [“Tidyverse Tutorial
     Playlist”](https://www.youtube.com/watch?v=lTTJPRwnONE&list=PLLxj8fULvXwGOf8uHlL4Tr62oXSB5k_in)
 
-## Sites Úteis
+### Sites Úteis
 
   - Tidyverse
       - [Pacotes](https://www.tidyverse.org/packages/)
