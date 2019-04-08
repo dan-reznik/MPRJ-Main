@@ -36,7 +36,7 @@ knitr::opts_chunk$set(
 
 ### Pós-Instalação
 
-* Instalar pacote “tidyverse” executando no cmd prompt:
+* Instalar pacote `tidyverse` executando no cmd prompt:
     + `R -e "install.packages('tidyverse',repo='https://cloud.r-project.org')"`
     
 ### Git e GitHub

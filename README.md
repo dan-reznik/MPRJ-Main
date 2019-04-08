@@ -31,7 +31,7 @@
 
 ### Pós-Instalação
 
-  - Instalar pacote “tidyverse” executando no cmd prompt:
+  - Instalar pacote `tidyverse` executando no cmd prompt:
       - `R -e
         "install.packages('tidyverse',repo='https://cloud.r-project.org')"`
 
@@ -62,7 +62,7 @@
       - Comandos basicos do R num script .R
       - Introdução a notebooks
       - Criação de dataframes manualmente
-      - Leitura e exportação de dataframes de/para arquivos .csv
+      - Leitura e exportação de dataframes com arquivos .csv
   - Aula 3
       - Atualizar o fork do projeto
           - `git remote add upstream
