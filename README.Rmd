@@ -95,7 +95,8 @@ knitr::include_graphics("pics/git.png")
 
 ### Exercícios
 
-* Thomás Jagoda, [Visualização com ggplot2](https://github.com/JagodaT/MPRJ--Exercicios-ggplot2)
+* Thomás Jagoda: [ggplot2](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
+* Matheus Donato: [dplyr](https://jagodat.github.io/MPRJ-Exercicios/content/ex_dplyr.html)
 * Ben Stenhaug, [The 5 verbs of dplyr](https://teachingr.com/content/the-5-verbs-of-dplyr/the-5-verbs-of-dplyr-exercise.html)
 
 ### Projetos
