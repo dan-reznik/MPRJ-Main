@@ -68,10 +68,11 @@
         https://github.com/dan-reznik/MPRJ-Main`
       - Atualizar o fork do projeto
           - `git remote add upstream
-            https://github.com/dan-reznik/R-Ministerio-Publico-RJ && git
-            fetch upstream && git checkout master && git merge
+            https://github.com/dan-reznik/MPRJ-Main && git fetch
+            upstream && git checkout master && git merge
             upstream/master`
-          - Nota: em caso de erro de merge, `git add .` e repetir
+          - Nota: em caso de erro de merge, `git add . && git commit -m
+            "fix merge" && git merge upstream/master`
           - “push” p/ seu fork pelo Rstudio
       - Introdução ao “pipe” `%>%`
       - Os 5 verbos do `dplyr`: select, filter, group\_by, summarize,
