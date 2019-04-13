@@ -100,7 +100,9 @@ knitr::include_graphics("pics/git.png")
 
 ### Projetos
 
-* [Execução Orçamentária](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
+* Execução Orçamentária
+    + [Anual](https://dan-reznik.github.io/MP-Execucao-Orcamentaria)
+    + [Mensal](https://dan-reznik.github.io/MP-Execucao-Orcamentaria-Mensal)
 
 ### Livros Online (grátis)
 

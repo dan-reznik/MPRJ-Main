@@ -1,0 +1,88 @@
+---
+title: "Analise Medicamentos"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(fs)
+library(zip) # install.packages("zip")
+```
+
+```{r}
+dir_ls("data")
+```
+
+```{r}
+unzip("data/TA_PRECOS_MEDICAMENTOS.zip",
+      exdir="data")
+```
+
+```{r}
+fname <- "data/TA_PRECOS_MEDICAMENTOS.csv"
+
+locale_brasil <- locale(encoding="ISO-8859-1",
+                        decimal_mark = ",")
+
+first3 <- read_lines(fname,n_max=3,locale=locale_brasil)
+first3[1] %>% str_count(";")
+```
+
+```{r}
+guess_encoding(fname)
+```
+
+```{r}
+read_lines(fname,locale=locale_brasil) %>%
+  str_count(";") %>%
+  table
+```
+
+```{r}
+df_medicamentos <- read_delim("data/TA_PRECOS_MEDICAMENTOS.zip",
+                              delim=";",
+                              locale=locale_brasil,
+                              quote="@")
+```
+
+```{r}
+read_lines(fname,locale=locale_brasil)[2084]
+```
+
+```{r}
+nrow(df_medicamentos)
+ncol(df_medicamentos)
+```
+
+```{r}
+colnames(df_medicamentos)
+```
+
+
+```{r}
+glimpse(df_medicamentos)
+```
+
+```{r}
+df_medicamentos %>%
+  count(NO_RAZAO_SOCIAL,sort=T)
+```
+
+```{r}
+df_medicamentos %>%
+  group_by(NO_RAZAO_SOCIAL,NO_PRODUTO) %>%
+  summarize(quantos=n(),
+            ticket_medio=mean(NU_PF18_INTEIRO,na.rm=T)) %>%
+  View
+```
+
+
+
+
+
+
+
+
+
+
+
