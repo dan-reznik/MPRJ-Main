@@ -58,16 +58,19 @@ Introdução à Ciência de Dados com R/tidyverse <img width="200" src="pics/puc
 -   Aula 3
     -   Rename remote: `git remote set-url origin https://github.com/dan-reznik/MPRJ-Main`
     -   Atualizar o fork do projeto
-        -   `git remote add upstream https://github.com/dan-reznik/R-Ministerio-Publico-RJ && git fetch upstream && git checkout master && git merge upstream/master`
-        -   Nota: em caso de erro de merge, `git add .` e repetir
+        -   `git remote add upstream https://github.com/dan-reznik/MPRJ-Main && git fetch upstream && git checkout master && git merge upstream/master`
+        -   Nota: em caso de erro de merge, `git add . && git commit -m "fix merge" && git merge upstream/master`
         -   "push" p/ seu fork pelo Rstudio
     -   Introdução ao "pipe" `%>%`
-    -   Os 5 verbos do `dplyr`: select, filter, group\_by, summarize, arrange
+    -   Os "verbos" do `dplyr`: select, filter, mutate, arrange, group\_by, summarize
     -   [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
-    -   Exercícios
+    -   [Exercícios dplyr](https://jagodat.github.io/MPRJ-Exercicios/content/ex_dplyr.html)
 -   Aula 4
-    -   Visualização de dados com `ggplot2`
-    -   Exercícios
+    -   Revisão: verbos do `dplyr`
+    -   Preparo de dados
+    -   Intro, visualização com `ggplot2`
+    -   Combinação `dplyr` com `ggplot2`
+    -   [Exercícios ggplot](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
 -   Aula 5
     -   Projeto:
         -   Escolher [dataset aberto](http://dados.gov.br/)
@@ -81,7 +84,8 @@ Introdução à Ciência de Dados com R/tidyverse <img width="200" src="pics/puc
 
 ### Exercícios
 
--   Thomás Jagoda, [Visualização com ggplot2](https://github.com/JagodaT/MPRJ--Exercicios-ggplot2)
+-   Matheus Donato: [dplyr](https://jagodat.github.io/MPRJ-Exercicios/content/ex_dplyr.html)
+-   Thomás Jagoda: [ggplot2](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
 -   Ben Stenhaug, [The 5 verbs of dplyr](https://teachingr.com/content/the-5-verbs-of-dplyr/the-5-verbs-of-dplyr-exercise.html)
 
 ### Projetos
