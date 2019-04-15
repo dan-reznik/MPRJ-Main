@@ -63,13 +63,14 @@ Introdução à Ciência de Dados com R/tidyverse <img width="200" src="pics/puc
         -   "push" p/ seu fork pelo Rstudio
     -   Introdução ao "pipe" `%>%`
     -   Os "verbos" do `dplyr`: select, filter, mutate, arrange, group\_by, summarize
-    -   [Cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+    -   Cheatsheets
+        -   [Data Import](https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf)
+        -   [Data Transformation](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
     -   [Exercícios dplyr](https://jagodat.github.io/MPRJ-Exercicios/content/ex_dplyr.html)
 -   Aula 4
     -   Revisão: verbos do `dplyr`
-    -   Preparo de dados
-    -   Intro, visualização com `ggplot2`
-    -   Combinação `dplyr` com `ggplot2`
+    -   Visualização com `ggplot2`, do livro do Kieran Healy, ["Data Visualization"](https://socviz.co/makeplot.html#makeplot)
+    -   Cheatsheet: [Data Visualization](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
     -   [Exercícios ggplot](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
 -   Aula 5
     -   Projeto:
