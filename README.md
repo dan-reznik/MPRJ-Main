@@ -123,6 +123,7 @@ Introdução à Ciência de Dados com R/tidyverse <img width="200" src="pics/puc
 -   Visualização
     -   [Data Visualization in R](https://djnavarro.github.io/satrdayjoburg/), [slides](https://djnavarro.github.io/satrdayjoburg/slides)
     -   [Galeria do ggplot2](https://www.r-graph-gallery.com/portfolio/ggplot2-package/)
+    -   [Yan Holz's Classes](https://www.yan-holtz.com/teaching)
 -   Pacotes R
     -   [Leaderboard](https://www.rdocumentation.org/trends)
     -   [Task Views](https://cran.r-project.org/web/views/)
