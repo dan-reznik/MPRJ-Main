@@ -74,6 +74,7 @@
     -   Use `ggplot2` como Tableau com [esquisse](https://github.com/dreamRs/esquisse)
     -   [Exercícios ggplot](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
 -   Aula 5
+    -   RMarkdown, [cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
     -   Projeto:
         -   Escolher [dataset aberto](http://dados.gov.br/)
         -   Propor questão de negócios + visualizações
