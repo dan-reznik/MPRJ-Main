@@ -70,8 +70,7 @@
 -   Aula 4
     -   Revisão: verbos do `dplyr`
     -   Visualização com `ggplot2`, do livro do Kieran Healy, ["Data Visualization"](https://socviz.co/makeplot.html#makeplot)
-    -   Cheatsheet: [Data Visualization](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
-    -   Tableau-like interface to ggplot2: [esquisser](https://github.com/dreamRs/esquisse)
+    -   Cheatsheet: [Data Visualization](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf) +`ggplot2` à la Tableau com [esquisse](https://github.com/dreamRs/esquisse)
     -   [Exercícios ggplot](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
 -   Aula 5
     -   Projeto:
