@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-## Introdução à Ciência de Dados com R/tidyverse <img width="200" src="pics/puc_mprj_inova.png" align="right" style="padding-left:10px;background-color:white"/>
+## <img width="200" src="pics/puc_mprj_inova.png" align="center" style="background-color:white"/><br>Introdução à Ciência de Dados com R/tidyverse 
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -84,6 +84,7 @@ knitr::include_graphics("pics/git.png")
     + Revisão: verbos do `dplyr`
     + Visualização com `ggplot2`, do livro do Kieran Healy, ["Data Visualization"](https://socviz.co/makeplot.html#makeplot)
     + Cheatsheet: [Data Visualization](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
+    + Tableau-like interface to ggplot2: [esquisser](https://github.com/dreamRs/esquisse)
     + [Exercícios ggplot](https://jagodat.github.io/MPRJ-Exercicios/content/visualizacao.html)
 * Aula 5
     + Projeto:
