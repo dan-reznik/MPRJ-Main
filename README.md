@@ -105,6 +105,7 @@
 
 -   <span style="background-color: #FFFF00">H. Wickham & G. Grolemund </span>, ["R for Data Science" (r4ds)](https://r4ds.had.co.nz/)
 -   Kieran Healy, ["Data Visualization"](https://socviz.co/)
+-   Claus Wilke, ["Fundamentals of Data Visualization"](https://serialmentor.com/dataviz/)
 -   Garrett Grolemund, ["Hands-on Programming with R"](https://rstudio-education.github.io/hopr/)
 -   Claudia Engel, ["Data Wrangling with R"](https://cengel.github.io/R-data-wrangling/)
 -   Jenny Bryan, [Happy Git and GitHub for the useR"](https://happygitwithr.com/)
