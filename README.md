@@ -131,6 +131,8 @@
     -   [Data Visualization in R](https://djnavarro.github.io/satrdayjoburg/), [slides](https://djnavarro.github.io/satrdayjoburg/slides)
     -   [Galeria do ggplot2](https://www.r-graph-gallery.com/portfolio/ggplot2-package/)
     -   [Yan Holz's Classes](https://www.yan-holtz.com/teaching)
+-   Markdown
+    -   [Pimp my Rmd](https://holtzy.github.io/Pimp-my-rmd/)
 -   Pacotes R
     -   [Leaderboard](https://www.rdocumentation.org/trends)
     -   [Task Views](https://cran.r-project.org/web/views/)
